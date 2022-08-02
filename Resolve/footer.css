@@ -1,0 +1,136 @@
+/*footer*/
+.footerSaPozadinom {
+    background-image: url(img/img014.jpg);
+    background-size: cover; /* smanjuje sliku sve
+    dok njena sirina i visina ne stanu u konteiner */
+    background-attachment: fixed;
+    background-position: center;
+    padding: 70px 0px 70px 0px ;
+    font-size: 22pt;
+    color: rgba(255, 255, 255, 0.714);
+    text-shadow: rgb(73, 73, 73) 0px 0px 4px;
+    text-align: center;  
+    margin-top: 15px;
+  }
+  
+  .footerCopy {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/img014.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.714);
+    text-shadow: rgb(73, 73, 73) 0px 0px 2px;
+  }
+  
+  footer {
+    display: inline-block;
+    font-size: 10pt;
+    background-color: #211f24;
+    color: #c0c0c0;
+    box-sizing: border-box;
+  }
+  
+  .sveosimindex {
+    margin-top: 15px;
+  }
+  
+  .footer-1, .footer-2, .footer-3 {
+    box-sizing: border-box;
+    margin: 50px 0px;
+    padding: 0px 70px;
+  }
+  
+  .footer-1 {
+    float: left;
+    font-size: 15.5px;
+  }
+  .footer-1 .a1 .foter {
+    color: #c0c0c0 t;
+    text-decoration: none;    
+    transition: 0.5st;
+  }
+  
+  .footer-1 p {
+    margin: 0px;
+  }
+  
+  
+  .footer-1 .a1:hover {
+    color:crimsont;
+  }
+  
+  .footer-2 {
+    text-align: center;
+    float: center;
+    font-size: 15.5px;
+  }
+  
+  .footer-2 .a1 {
+    color: #c0c0c0;
+    display: block;
+    text-decoration: none;
+    transition: 0.5st;
+  }
+  
+  .footer-2 .a1:hover {
+    color:crimson;
+    transform: scale(1.51);
+  
+    transition-duration: 0.1s;
+  }
+  
+  .footer-2 p {
+    margin-top: 0px;
+  }
+  
+  .brziLinkovi{
+    margin: 0px 0px 10px;
+  }
+  
+  .footer-3{
+    text-align: right; 
+    font-size: 15.5px;
+    float: right; 
+  }
+  
+  .footer-3 .a1 {
+    text-decoration: none;
+    display: block;
+    color: #c0c0c0;
+    transition: 0.5s;
+  }
+  
+  .footer-3 .a1:hover {
+    color:crimson;
+    transform: translate(-15px);
+  }
+  
+  .skrivaTextFooter {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+  }
+  /*faq*/
+  .explaner .col-6-faq {
+    padding:10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+  
+  }
+  .explaner .col-6-faq .faq .faq2 {
+    font-size: 26px;
+  
+  }
+
+  @media screen and (max-width:320px) {
+    .footer-2 {
+      text-align: center;
+      float: left;
+    }
+    .footer-3 {
+      text-align: center;
+      float: left;
+    }
+  }
